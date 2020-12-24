@@ -19,6 +19,8 @@ TARGET_KERNEL_VERSION := 4.9
 -include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/tissot
+PRODUCT_BOARD_PLATFORM := msm8953
+PRODUCT_USES_QCOM_HARDWARE := true
 
 # Filesystem
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
